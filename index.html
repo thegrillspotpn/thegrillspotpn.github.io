@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Grill Spot</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+        <link rel="icon" type="image/png" href="icon.png">
+        <style>
+            body {font-family: "Times New Roman", Georgia, Serif;}
+            h1, h2, h3, h4, h5, h6 {
+            font-family: "Playfair Display";
+            letter-spacing: 5px;
+            }
+        </style>
+    </head>
+
+<body>
+<!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+            <a href="#home" class="w3-bar-item w3-button">The Grill Spot</a>
+            <!-- Right-sided navbar links. Hide them on small screens -->
+            <div class="w3-right w3-hide-small">
+                <a href="#about" class="w3-bar-item w3-button">About</a>
+                <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+                <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+            </div>
+        </div>
+    </div>
+
+<!-- Header -->
+    <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+        <img class="w3-image" src="meat1copy.jpg" alt="Hamburger Catering" width="1600" height="800" style="opacity: 98%;">
+        <div class="w3-display-bottomleft w3-padding-large w3-opacity" style="opacity: 100%;">
+            <h1 class="w3-xxlarge">The Grill Spot</h1>
+        </div>
+    </header>
+
+<!-- Page content -->
+    <div class="w3-content" style="max-width:1100px">
+
+<!-- About Section -->
+        <div class="w3-row w3-padding-64" id="about">
+            <div class="w3-col m6 w3-padding-large w3-hide-small">
+                <img src="meat2.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750" style="opacity: 100%;">
+            </div>
+
+            <div class="w3-col m6 w3-padding-large">
+                <h1 class="w3-center">About The Grill Spot</h1><br>
+                <h5 class="w3-center">EST. 2025</h5>
+                <p class="w3-large">
+                    Bun venit la <b>The Grill Spot</b>, locul unde pasiunea pentru carne se întâlnește cu atmosfera relaxantă a zonei <u>Ștrand</u> din Piatra-Neamț! Aici, vă invităm să descoperiți o experiență culinară autentică, într-un ambient perfect pentru o masă delicioasă înainte sau după o plimbare lângă căsuțele pitorești, o sesiune de sport sau o zi relaxantă la piscină.  
+                    
+                    La <b>The Grill Spot</b>, punem accent pe calitate și gust. Produsele noastre, selectate cu grijă, provin de la SC Food Point Distribution SRL, un furnizor de încredere din Cluj, care ne asigură carne proaspătă zilnic. Fie că preferați un succulent grătar, o friptură aromată sau specialități gătite la perfectție, meniul nostru este creat să satisfacă toate preferințele.  
+                    
+                    Restaurantul nostru este deschis <b>tot timpul anului</b>, gata să vă primească cu mâncare gustoasă și evenimente tematice. Veniți singuri, cu prietenii sau cu familia și bucurați-vă de momente memorabile în compania preparatelor noastre savuroase.  
+                    
+                    <b>The Grill Spot</b> – unde fiecare masă devine o aventură culinară!</p>
+            </div>
+        </div>
+  <hr>
+  
+<!-- Menu Section -->
+        <div class="w3-row w3-padding-64" id="menu">
+            <div class="w3-col l6 w3-padding-large">
+                <h1 class="w3-center">Menu</h1><br>
+                <h4>Aperitive</h4>
+                <p class="w3-text-grey">Platouri tradiționale cu asortimente de igrediente diverse</p><br>
+    
+                <h4>Preparate la grill</h4>
+                <p class="w3-text-grey">Sortimente diverse de mixuri speciale, coaste de porc BBQ, pui și șnițel vienez</p><br>
+    
+                <h4>Specialități din carne</h4>
+                <p class="w3-text-grey">Steak de vită, pulled pork sandwich sau rulouri din piept de pui umplute</p><br>
+    
+                <h4>Garnituri</h4>
+                <p class="w3-text-grey">Cartofi, legume sau orez</p><br>
+    
+                <h4>Salate</h4>
+                <p class="w3-text-grey">Salată de varză albă, coleslaw sau salată verde cu lamâie</p>    
+            </div>
+    
+            <div class="w3-col l6 w3-padding-large">
+                <img src="meat3.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%;opacity: 100%;">
+            </div>
+        </div>
+  <hr>
+
+<!-- Contact Section -->
+        <div class="w3-container w3-padding-64" id="contact">
+            <h1>Contact</h1><br>
+            <p>Oferim o capacitate mare de locuri pentru a putea avea parte de o experiență gastronomică cu adevărat impresionanta, în sitlul The Grill Spot.</p>
+            <p class="w3-text-blue-grey w3-large"><b><a href="https://maps.app.goo.gl/VGcbtYshvUoYx8tFA">Strada Nucului 36A, Piatra Neamț 610073(Ștrand Piatra Neamț)</a></b></p>
+            <p>Ne puteți contacta si telefonic la 0725359032, pe email Restaurant@thegrillspot.com sau ne puteți trimite un mesaj aici:</p>
+            <form action="/action_page.php" target="_blank">
+                <p><input class="w3-input w3-padding-16" type="text" placeholder="Nume" required name="Name"></p>
+                <p><input class="w3-input w3-padding-16" type="number" placeholder="Numărul de persoane" required name="People"></p>
+                <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+                <p><input class="w3-input w3-padding-16" type="text" placeholder="Mesaj \ Nevoi speciale" required name="Message"></p>
+                <p><button class="w3-button w3-light-grey w3-section" type="submit">TRIMITE</button></p>
+            </form>
+        </div>
+  
+<!-- End page content -->
+    </div>
+
+<!-- Footer -->
+    <footer class="w3-center w3-light-grey w3-padding-32">
+        <p>Powered by <a href="https://www.instagram.com/rares.ruthless/" title="Rares" target="_blank" class="w3-hover-text-green">Rares</a></p>
+    </footer>
+
+</body>
+</html>
